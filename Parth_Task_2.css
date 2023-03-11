@@ -1,0 +1,215 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.main {
+    height: 400px;
+    width: 500px;
+    background: #2c3044;
+    margin: 30px auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 0;
+    box-shadow: 0 0 20px gray;
+}
+
+.x {
+    color: lightslategray;
+    font-size: 50px;
+    letter-spacing: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    bottom: 40px;
+    right: 15px;
+    z-index: -1;
+}
+
+.card {
+    margin-left: 20px;
+    height: 250px;
+    width: 400px;
+    background: rgb(36, 22, 51);
+    display: flex;
+    z-index: 0;
+}
+
+.z {
+    height: 250px;
+    width: 50%;
+    background: rgb(255, 92, 42);
+    border: 3px solid transparent;
+    border-radius: 0 50% 50% 0;
+    position: relative;
+}
+
+.z img {
+    transform: rotateY(180deg);
+    height: 180px;
+    width: 250px;
+    position: absolute;
+    top: 20px;
+    right: -20px;
+}
+
+.w {
+    height: inherit;
+    width: 50%;
+    background-color: transparent;
+    padding-left: 10px;
+    padding-top: 10px;
+    position: relative;
+}
+
+.w h3 {
+    color: lightcoral;
+    font-size: 1.1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+
+.fa-magnifying-glass {
+    color: #fff;
+    font-size: .7rem;
+    position: absolute;
+    top: 17px;
+    right: 80px;
+}
+
+.fa-user {
+    color: #fff;
+    font-size: .7rem;
+    position: absolute;
+    top: 17px;
+    right: 50px;
+}
+
+.fa-cart-shopping {
+    color: #fff;
+    font-size: .7rem;
+    position: absolute;
+    top: 17px;
+    right: 20px;
+}
+
+.w h5 {
+    margin-top: 50px;
+    color: #fff;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .8rem;
+}
+
+.w h2 {
+    font-size: 1.2rem;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 8px;
+}
+
+.w h6 {
+    margin-top: 8px;
+    color: #fff;
+    word-spacing: 10px;
+    font-size: 1rem;
+    font-weight: normal;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.w span {
+    margin-top: 8px;
+    font-size: .8rem;
+    margin-left: 10px;
+    font-weight: normal;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: line-through red;
+}
+
+.w p {
+    margin-top: 10px;
+    color: #fff;
+    font-size: .6rem;
+    word-spacing: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.w .k {
+    margin-top: 15px;
+    height: 15px;
+    background: transparent;
+    display: flex;
+    align-items: center;
+}
+
+.k .c {
+    font-size: .6rem;
+    color: #fff;
+    font-weight: normal;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.k #a {
+    height: 12px;
+    width: 12px;
+    background-color: yellow;
+    margin-left: 20px;
+    border: 1px solid transparent;
+    border-radius: 12px;
+}
+
+.k #b {
+    height: 12px;
+    width: 12px;
+    background-color: #000;
+    margin-left: 20px;
+    border: 1px solid transparent;
+    border-radius: 12px;
+}
+
+.k #c {
+    height: 12px;
+    width: 12px;
+    background-color: rgb(194, 32, 67);
+    margin-left: 20px;
+    border: 1px solid transparent;
+    border-radius: 12px;
+}
+
+#q {
+    margin-top: 15px;
+    height: 10px;
+    background: transparent;
+    display: flex;
+    padding-left: 20px;
+    position: relative;
+}
+
+.w #q .g {
+    font-size: .5rem;
+    color: #fff
+}
+
+.w #q .h {
+    font-size: .5rem;
+    color: #fff;
+    margin-left: 50px;
+}
+
+.w #q .fa-bag-shopping {
+    color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: .6rem;
+}
+
+.w #q .fa-cart-shopping {
+    color: #fff;
+    position: absolute;
+    top: 0;
+    left: 80px;
+    font-size: .6rem;
+}
